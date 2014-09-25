@@ -1,0 +1,54 @@
+<%= provide(:title, "Manage Song: #{@song.title}") %>
+
+<h1>Manage Song: <%= @song.title %></h1>
+
+<%= form_for(@song) do |f| %>
+	<%= render 'shared/error_messages', :object => @song %>
+	
+	<%= f.label :title, "Song Title*" %>
+	<%= f.text_field :title, placeholder: "Enter the title of the song...", class: "input-xxlarge" %>
+	
+	<%= f.label :artist, "Song Artist*" %>
+	<%= f.text_field :artist, placeholder: "Enter the artist of the song...", class: "input-xxlarge" %>
+	
+	<%= f.hidden_field :updated_by, value: "#{current_user.email}" %>
+	
+	<div>
+		<%= f.submit "Save Changes", class: "btn btn-large btn-primary" %>
+		<div class="disclaimer">*all fields required</div>
+	</div>
+<% end %>
+
+<div class="song-arrangements">
+	<% if @song_arrangements.empty? %>
+		<h2>No arrangements have been added to this song.</h2>
+	<% end %>
+	
+	<%= will_paginate @song_arrangements %>
+		<section class="data-list">
+			<% @song_arrangements.each do |arrangement| %>
+				<article>
+					<section class="data">
+						<div class="data-title">
+							<%= link_to "#{arrangement.title}", arrangement %>
+							<div class="data-subtitle">
+								Key: <%= arrangement.original_key %>
+							</div>
+						</div>
+						<div class="data-note">
+							<%= (arrangement.bpm == 0) ? "" : "#{arrangement.bpm} bpm" %>
+						</div>
+					</section>
+					<section class="data-actions">
+						<%= link_to "Manage", edit_song_arrangement_path(arrangement), class: "btn btn-large btn-primary" %>
+						<% if current_user.try(:admin?) %>					
+							<%= link_to "Delete", arrangement, method: :delete, data: { confirm: "Are you sure you want to delete the song arrangement: #{arrangement.title}?" }, class: "btn btn-large" %>
+						<% end %>
+					</section>
+				</article>
+			<% end %>
+		</section>
+	<%= will_paginate @song_arrangements %>
+
+	<%= link_to "Add Arrangement", new_song_arrangement_path(song_id: @song.id), class: "btn btn-large btn-primary btn-add-new" %>
+</div>

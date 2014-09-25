@@ -1,0 +1,20 @@
+<%= provide(:title, 'Add New Song') %>
+
+<h1>Add New Song</h1>
+
+<%= form_for(@song) do |f| %>
+	<%= render 'shared/error_messages', :object => @song %>
+	
+	<%= f.label :title, "Song Title*" %>
+	<%= f.text_field :title, placeholder: "Enter the title of the song...", class: "input-xxlarge" %>
+	
+	<%= f.label :artist, "Song Artist*" %>
+	<%= f.text_field :artist, placeholder: "Enter the artist of the song...", class: "input-xxlarge" %>
+	
+	<%= f.hidden_field :added_by, value: "#{current_user.email}" %>
+	
+	<div>
+		<%= f.submit "Add", class: "btn btn-large btn-primary" %>
+		<div class="disclaimer">*all fields required</div>
+	</div>
+<% end %>

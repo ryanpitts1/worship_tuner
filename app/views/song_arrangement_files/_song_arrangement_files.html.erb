@@ -1,0 +1,25 @@
+<%= will_paginate %>
+	<section class="data-list">
+		<% @song_arrangement_files.each do |attachment| %>
+			<article>
+				<section class="data">
+					<div class="data-title">
+						<%= link_to "#{attachment.title}", attachment %>
+						<div class="data-subtitle">
+							Song: <%= attachment.song.title %>
+						</div>
+					</div>
+					<div class="data-note">
+						Arrangement: <%= attachment.song_arrangement.title %>
+					</div>
+				</section>
+				<section class="data-actions">
+					<%= link_to "Manage", edit_song_arrangement_file_path(attachment), class: "btn btn-large btn-primary" %>
+					<% if current_user.try(:admin?) %>					
+						<%= link_to "Delete", attachment, method: :delete, data: { confirm: "Are you sure you want to delete the attachment #{attachment.title}?" }, class: "btn btn-large" %>
+					<% end %>
+				</section>
+			</article>
+		<% end %>
+	</section>
+<%= will_paginate %>

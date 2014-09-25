@@ -1,0 +1,4 @@
+# Worship Tuner (unfinished)
+
+### Purpose of This Application
+This application was built as a personal project. This was a project that I built early on in my learning of ROR. I used this application to give myself a project to help me learn new things in Rails. This project has more of an example of the Rspec testing I have done with my projects. Some of the key features that this application has is the ability to save and manage files stored on Amazon's S3 cloud storage. Carrierwave and Fog are used to take care of this. Worship Tuner is supposed to be a place where people (specifically, worship leaders) can create musical chord charts for songs.  The application would serve as a library of songs. Each song can have multiple arrangements and each arrangement can have multiple chord charts attached to it. Notes coud also be added at several points along that path. The other key feature was a blog with the ability to tag blog posts as well as comment on them.

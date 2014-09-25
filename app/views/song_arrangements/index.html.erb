@@ -1,0 +1,16 @@
+<% provide(:title, 'Arrangement Library') %>
+
+<h1>Arrangement Library</h1>
+
+<% if @song_arrangements.empty? %>
+	<h2>There are no arrangements in this library.</h2>
+<% else %>
+	<%= form_tag song_arrangements_path, :method => 'get', id: "song_arrangements_search" do %>
+		<%= label_tag :search, "Search Arrangements" %>
+		<%= text_field_tag :search, params[:search], class: "input-xxlarge" %>
+	<% end %>
+	
+	<div id="song_arrangements">
+		<%= render 'song_arrangements' %>
+	</div>
+<% end %>

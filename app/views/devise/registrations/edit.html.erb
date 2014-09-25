@@ -1,0 +1,39 @@
+<%= provide(:title, "Update: #{@user.name}") %>
+
+<h1>Update: <%= @user.name %></h1>
+<%= render 'shared/error_messages', :object => @user %>
+<label>Gravatar: (Change? <%= link_to "Click here", "http://gravatar.com/emails", target: "_blank" %>.)</label>
+<div class="gravatar-large">
+	<%= gravatar_for @user, size: 150 %>
+</div>
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+	<div>
+		<%= f.label :name, "Name" %>
+		<%= f.text_field :name, class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.label :email %>
+		<%= f.email_field :email, class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.label :password, "New Password" %>
+		<i>(leave blank if you don't want to change it)</i><br />
+		<%= f.password_field :password, :autocomplete => "off", class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.label :password_confirmation, "Confirm New Password" %>
+		<%= f.password_field :password_confirmation, class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.label :current_password, "Current Password" %>
+		<i>(we need your current password to confirm your changes)</i><br />
+		<%= f.password_field :current_password, class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.submit "Save Changes", class: "btn btn-primary" %> <%= link_to "Cancel", :back, class: "btn btn-cancel" %>
+	</div>
+<% end %>
+<br />
+<h3>Cancel My Account</h3>
+<p>Unhappy? <%= link_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete %>.</p>
+<%= link_to "Test Link", root_path %>

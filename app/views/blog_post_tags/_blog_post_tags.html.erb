@@ -1,0 +1,13 @@
+<%= will_paginate %>
+	<section class="data-list">
+		<% @blog_post_tags.each do |tag| %>
+			<article>
+				<section class="data">
+					<div class="data-title">
+						<%= link_to "#{tag.name}", tag %>
+					</div>
+				</section>
+			</article>
+		<% end %>
+	</section>
+<%= will_paginate %>

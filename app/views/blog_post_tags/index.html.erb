@@ -1,0 +1,16 @@
+<% provide(:title, 'Blog Post Tags') %>
+
+<h1>Blog Post Tags</h1>
+
+<% if @blog_post_tags.empty? %>
+	<h2>No blog post tags have been created yet.</h2>
+<% else %>
+	<%= form_tag blog_post_tags_path, :method => 'get', id: "blog_post_tags_search" do %>
+		<%= label_tag :search, "Search Blog Post Tags" %>
+		<%= text_field_tag :search, params[:search], class: "input-xxlarge" %>
+	<% end %>
+	
+	<div id="blog_post_tags_list">
+		<%= render 'blog_post_tags' %>
+	</div>
+<% end %>

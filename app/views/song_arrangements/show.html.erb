@@ -1,0 +1,42 @@
+<%= provide(:title, "#{@song_arrangement.title}") %>
+
+<section class="song-arrangement-wrapper">
+	<%= link_to_function "Print this Page", "javascript:print()", class: "btn btn-small" %>
+	<div class="song-arrangement-title">
+		<h3><%= @song_arrangement.song.title %> [<%= @song_arrangement.original_key %><%= (@song_arrangement.bpm == 0) ? "" : ", #{@song_arrangement.bpm} bpm" %>]</h3>
+		<h4><%= @song_arrangement.song.artist %></h4>
+		<h4><%= @song_arrangement.chart_mapping %></h4>
+	</div>
+	<div class="song-arrangement-chart">
+		<%= @song_arrangement.chart_content.html_safe %>
+	</div>
+</section>
+<section class="song-arrangement-attached-files-and-notes-wrapper">
+	<section class="song-arrangement-attached-files">
+		<h4>Attachments</h4>
+		<% if @song_arrangement_files.empty? %>
+			<div class="no-attached-file">
+				There are no attachments for this arrangement.
+			</div>
+		<% end %>
+		<% @song_arrangement_files.each do |attachment| %>
+			<% if !attachment.file_path.path %>
+				<a class="attached-file" href="<%= attachment.url %>" target="_blank">
+			<% else %>
+				<a class="attached-file" href="<%= attachment.file_path %>" target="_blank">
+			<% end %>
+				File: <span class="link"><%= attachment.title %></span>
+			</a>
+		<% end %>
+	</section>
+	<section class="song-arrangement-notes">
+		<h4>Notes</h4>
+		<div class="arrangement-notes">
+			<% if @song_arrangement.notes.empty? %>
+				<p><strong>There are no notes for this arrangement.</strong></p>
+			<% end %>
+			<%= @song_arrangement.notes.html_safe %>
+		</div>
+	</section>
+</section>
+<div class="cleanup"></div>

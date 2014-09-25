@@ -1,0 +1,24 @@
+<%= will_paginate %>
+	<section class="data-list">
+		<% @songs.each do |song| %>
+			<article>
+				<section class="data">
+					<div class="data-title">
+						<%= link_to "#{song.title}", song %>
+						<div class="data-subtitle">
+							by <%= song.artist %>
+						</div>
+					</div>
+				</section>
+				<% if user_signed_in? %>
+					<section class="data-actions">
+						<%= link_to "Manage", edit_song_path(song), class: "btn btn-large btn-primary" %>
+						<% if current_user.try(:admin?) %>					
+							<%= link_to "Delete", song, method: :delete, data: { confirm: "Are you sure you want to delete the song: #{song.title} (by #{song.artist})?" }, class: "btn btn-large" %>
+						<% end %>
+					</section>
+				<% end %>
+			</article>
+		<% end %>
+	</section>
+<%= will_paginate %>

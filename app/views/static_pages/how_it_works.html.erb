@@ -1,0 +1,30 @@
+<% provide(:title, 'How it Works') %>
+
+<h1>How it Works</h1>
+
+<section class="content">
+	<p>You may be wondering how exactly Worship Tuner works. It's simple, really. There are two ways that you can use this website. 1) Just go to the <%= link_to "song library page", songs_path %> and check out the different arrangements of a particular song, or 2) register for a <strong><em>free</em></strong> account and add your own arrangement to a song. That's a pretty high level view of the site but there really is much more to it than that. This site is meant to be a made up of a community or worship leaders who collaborate on different arrangements that they perform of songs.</p>
+	<br />
+	<h4>For Members</h4>
+	<p>
+		As a member you will become a collaborator and have the ability to add and manage songs, arrangements, and attachments. The purpose in doing so would be to share different things you've done to help other worship leaders come up with ideas.
+		<br />
+		<blockquote>
+			<h5>Songs</h5>
+			As a member you can create a song if it's not already listed. Please do not create duplicate songs. All you need to know is the name of the song and the name of the artist. You can then add arrangements to songs that have benn created.
+			<br />
+		</blockquote>
+		<blockquote>
+			<h5>Arrangements</h5>
+			A song arrangement consists of a title, original key, bpm <em>(beats per minute)</em>, chord chart, song mapping <em>(V, C, V, C, C, etc)</em>, and any notes you would like to add for the arrangement. The notes section is really important. It provides a place for you to communicate things that you have found that work well with the song arrangement. Maybe you've found a good lighting scheme that accents the song well, have some scriptures that go with the song, etc. Those are the types of things that really help in collaborating with other worship leaders about a song.
+			<br />
+		</blockquote>
+		<blockquote>
+			<h5>Attachments</h5>
+			You can also add attachments to the arrangement as well. You can add images that you've used with the song, any additional text or word documents that have information that you've used with the song, or even a link to a audio or video clip that you've used.
+		</blockquote>
+	</p>
+	<br />
+	<h4>For Non-Members</h4>
+	<p>As a non-member of Worship Tuner you do not have access to add or manage songs. If you're just looking for ideas for arrangements for songs, then that's ok! You can just go to the <%= link_to "song library page", songs_path %> and check out the arrangements that other worship leaders have shared. You can always just browse around the library and <%= link_to "register", new_user_registration_path %> later if you would like to share an arrangement as well.</p>
+</section>

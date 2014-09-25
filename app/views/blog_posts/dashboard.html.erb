@@ -1,0 +1,17 @@
+<% provide(:title, 'Blog Dashboard') %>
+
+<h1>Dashboard</h1>
+
+<% if @blog_posts.empty? %>
+	<h2>No blog posts have been posted yet.</h2>
+<% else %>
+	<%= form_tag dashboard_blog_posts_path, :method => 'get', id: "blog_posts_search" do %>
+		<%= label_tag :search, "Search Blog Posts" %>
+		<%= text_field_tag :search, params[:search], class: "input-xxlarge" %>
+	<% end %>
+	
+	<div id="blog_posts_dashboard">
+		<%= render 'posts_dashboard' %>
+	</div>
+<% end %>
+<%= link_to "New Post", new_blog_post_path, class: "btn btn-large btn-primary btn-add-new" %>

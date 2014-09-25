@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= full_title(yield(:title)) %></title>
+		<meta name="robots" content="noindex,nofollow">
+		<%= stylesheet_link_tag     "application",  media: "all" %>
+		<%= javascript_include_tag  "application" %>
+		<%= csrf_meta_tags %>
+		<%= render 'layouts/shim' %>    
+	</head>
+	<body>
+		<%= render 'layouts/header' %>
+		<section class="top-bar">
+			<div class="logo">
+				<%= link_to image_tag("logo.png"), root_path %>
+			</div>
+			<div class="slogan">
+				<span class="accent">Community</span> driven <span class="accent">collaborative</span><br />worship chord chart library.
+			</div>
+		</section>
+		<div class="container">
+			<% flash.each do |key, value| %>
+				<%= content_tag(:div, value, class: "alert alert-#{key}") %>
+			<% end %>
+			<%= yield %>
+			<%= render 'layouts/footer' %>
+		</div>
+	</body>
+</html>

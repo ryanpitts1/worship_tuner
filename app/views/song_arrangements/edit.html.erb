@@ -1,0 +1,63 @@
+<%= tinymce theme_advanced_buttons1: "bold,italic,underline,strikethrough,separator,forecolor,separator,bullist,numlist,outdent,indent,separator,undo,redo,separator,removeformat,code,fullscreen", theme_advanced_buttons2: "", theme_advanced_buttons3: "", width: "100%", height: "600", content_css: "/assets/tinymce.css", valid_elements: "-strong,-em,-u,-p,p[style],-ol,ol[style],-ul,ul[style],-li,li[style],-span,span[style],-div,div[style]", theme_advanced_resizing: true, theme_advanced_resize_horizontal: false %>
+
+<%= provide(:title, "Update Arrangement: #{@song_arrangement.title}") %>
+
+<h1>Update Arrangement: <%= @song_arrangement.title %></h1>
+<h2>Arrangement for: <%= @song_arrangement.song.title %></h2>
+
+<%= form_for(@song_arrangement) do |f| %>
+	<%= render 'shared/error_messages', :object => @song_arrangement %>
+	
+	<%= f.label :title, "Arrangement Title*" %>
+	<%= f.text_field :title, placeholder: "Enter the title of the arrangement...", class: "input-xxlarge" %>
+	
+	<%= f.label :original_key, "Original Key" %>
+	<%= f.select :original_key, ["Ab", "A", "A#", "Bb", "B", "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#"], class: "input-mini" %>
+	
+	<%= f.label :bpm, "BPM" %>
+	<%= f.number_field :bpm, class: "input-mini" %>
+	
+	<%= f.label :chart_content, "Chart*" %>
+	<%= f.text_area :chart_content, class: "tinymce" %>
+	
+	<%= f.label :chart_mapping, "Mapping" %>
+	<%= f.text_field :chart_mapping, placeholder: "V1, C, V2, C, B, C, C", class: "input-xxlarge" %>
+	
+	<%= f.label :notes, "Notes" %>
+	<%= f.text_area :notes, class: "tinymce" %>
+	
+	<%= f.hidden_field :updated_by, value: "#{current_user.email}" %>
+	
+	<div>
+		<%= f.submit "Save Changes", class: "btn btn-large btn-primary" %>
+		<div class="disclaimer">*required field</div>
+	</div>
+<% end %>
+
+<div class="song-arrangement-files">
+	<% if @song_arrangement_files.empty? %>
+		<h2>No attachments have been uploaded for this song arrangement.</h2>
+	<% end %>
+	
+	<%= will_paginate @song_arrangement_files %>
+		<section class="data-list">
+			<% @song_arrangement_files.each do |attachment| %>
+				<article>
+					<section class="data">
+						<div class="data-title">
+							<%= link_to "#{attachment.title}", attachment %>
+						</div>
+					</section>
+					<section class="data-actions">
+						<%= link_to "Manage", edit_song_arrangement_file_path(attachment), class: "btn btn-large btn-primary" %>
+						<% if current_user.try(:admin?) %>					
+							<%= link_to "Delete", attachment, method: :delete, data: { confirm: "Are you sure you want to delete the attachment: #{attachment.title}?" }, class: "btn btn-large" %>
+						<% end %>
+					</section>
+				</article>
+			<% end %>
+		</section>
+	<%= will_paginate @song_arrangement_files %>
+
+	<%= link_to "Add Attachment", new_song_arrangement_file_path(song_id: @song_arrangement.song.id, song_arrangement_id: @song_arrangement.id), class: "btn btn-large btn-primary btn-add-new" %>
+</div>

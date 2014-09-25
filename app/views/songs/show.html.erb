@@ -1,0 +1,40 @@
+<% provide(:title, "#{@song.title}") %>
+
+<h1><%= @song.title %></h1>
+<h2>by <%= @song.artist %></h2>
+
+<h3>Arrangements</h3>
+
+<% if @song_arrangements.empty? %>
+	<h4>No arrangements have been added to this song.</h4>
+<% end %>
+
+<%= will_paginate @song_arrangements %>
+	<section class="song-arrangements-list">
+		<% @song_arrangements.each do |arrangement| %>
+			<article class="song-arrangement">
+				<section class="arrangement-title-and-details">
+					<span class="arrangement-title"><%= link_to "#{arrangement.title}", arrangement %></span>
+					<span class="arrangement-details">[<%= arrangement.original_key %><%= (arrangement.bpm == 0) ? "" : "#{arrangement.bpm} bpm" %>]</span>
+				</section>
+				<section class="arrangement-attachments">
+					<h4>Attachments</h4>
+					<% if arrangement.song_arrangement_files.empty? %>
+						<div class="no-attached-file">
+							There are no attachments for this arrangement.
+						</div>
+					<% end %>
+					<% arrangement.song_arrangement_files.each do |attachment| %>
+						<% if !attachment.file_path.path %>
+							<a class="attached-file" href="<%= attachment.url %>" target="_blank">
+						<% else %>
+							<a class="attached-file" href="<%= song_arrangement_file_path(attachment) %>">
+						<% end %>
+							File: <span class="link"><%= attachment.title %></span>
+						</a>
+					<% end %>
+				</section>
+			</article>
+		<% end %>
+	</section>
+<%= will_paginate @song_arrangements %>

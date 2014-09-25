@@ -1,0 +1,24 @@
+/* printer friendly specific styles */
+@media print {
+  header.navbar, .btn, footer.footer, .top-bar, .song-arrangement-attached-files-and-notes-wrapper {
+    display: none;
+  }
+  
+  body {
+    padding: 0;
+  }
+  
+  body > .container {
+    margin: 0;
+  }
+  
+  .song-arrangement-wrapper {
+    width: 100%;
+  }
+  
+  .song-arrangement-title {
+    -webkit-print-color-adjust: exact;
+    background-color: #eee;
+    padding: 10px 15px;
+  }
+}

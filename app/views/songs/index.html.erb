@@ -1,0 +1,20 @@
+<% provide(:title, 'Song Library') %>
+
+<h1>Song Library</h1>
+
+<% if @songs.empty? %>
+	<h2>There are no songs in this library.</h2>
+<% else %>
+	<%= form_tag songs_path, :method => 'get', id: "songs_search" do %>
+		<%= label_tag :search, "Search Songs" %>
+		<%= text_field_tag :search, params[:search], class: "input-xxlarge" %>
+	<% end %>
+	
+	<div id="songs">
+		<%= render 'songs' %>
+	</div>
+	
+	<% if user_signed_in? %>
+		<%= link_to "Add to Library", new_song_path, class: "btn btn-large btn-primary btn-add-new" %>
+	<% end %>
+<% end %>

@@ -1,0 +1,14 @@
+<%= provide(:title, "Resend Unlock Instructions") %>
+
+<h1>Resend Unlock Instructions</h1>
+<%= form_for(resource, :as => resource_name, :url => unlock_path(resource_name), :html => { :method => :post }) do |f| %>
+	<%= render 'shared/error_messages', :object => @user %>
+	<div>
+		<%= f.label :email %>
+		<%= f.email_field :email, class: "input-xslarge" %>
+	</div>
+	<div>
+		<%= f.submit "Send Again", class: "btn btn-primary" %>
+	</div>
+<% end %>
+<%= render "devise/shared/links" %>

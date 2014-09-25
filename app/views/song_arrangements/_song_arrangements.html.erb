@@ -1,0 +1,25 @@
+<%= will_paginate %>
+	<section class="data-list">
+		<% @song_arrangements.each do |arrangement| %>
+			<article>
+				<section class="data">
+					<div class="data-title">
+						<%= link_to "#{arrangement.title}", arrangement %>
+						<div class="data-subtitle">
+							Song: <%= arrangement.song.title %>
+						</div>
+					</div>
+					<div class="data-note">
+						[<%= arrangement.original_key %><%= (arrangement.bpm == 0) ? "" : ", #{arrangement.bpm} bpm" %>]
+					</div>
+				</section>
+				<section class="data-actions">
+					<%= link_to "Manage", edit_song_arrangement_path(arrangement), class: "btn btn-large btn-primary" %>
+					<% if current_user.try(:admin?) %>					
+						<%= link_to "Delete", arrangement, method: :delete, data: { confirm: "Are you sure you want to delete the song arrangement: #{arrangement.title}?" }, class: "btn btn-large" %>
+					<% end %>
+				</section>
+			</article>
+		<% end %>
+	</section>
+<%= will_paginate %>

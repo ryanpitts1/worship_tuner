@@ -1,0 +1,33 @@
+<%= will_paginate %>
+	<section class="blog-posts">
+		<% @blog_posts.each do |post| %>
+			<article class="post">
+				<section class="post-meta-info">
+					<div class="post-title">
+						<%= link_to "#{post.title}", post %>
+						<% if current_user.try(:admin?) %>	
+							<div class="post-actions">
+								<%= link_to image_tag("icon_edit.png"), edit_blog_post_path(post), title: "Edit Post" %>
+								<%= link_to image_tag("icon_delete.png"), post, method: :delete, data: { confirm: "Are you sure you want to delete the post: #{post.title} (by #{post.author})?" }, title: "Delete Post" %>
+							</div>
+						<% end %>
+					</div>
+					<div class="post-author">
+						Posted by <%= post.author %>
+					</div>
+					<div class="post-date">
+						Posted <%= time_ago_in_words(post.created_at) %> ago
+					</div>
+				</section>
+				<section class="post-body-content">
+					<div class="post-body">
+						<%= post.body.html_safe %>
+					</div>
+					<div class="post-labels">
+						<strong>Tags:</strong> <%= tag_links(post.blog_post_tags) %>
+					</div>
+				</section>
+			</article>
+		<% end %>
+	</section>
+<%= will_paginate %>

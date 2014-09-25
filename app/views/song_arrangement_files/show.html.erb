@@ -1,0 +1,22 @@
+<%= provide(:title, "#{@song_arrangement_file.title}") %>
+
+<h1><%= @song_arrangement_file.title %></h1>
+<h2>Song: <%= @song_arrangement_file.song.title %><br />
+Arrangement: <%= @song_arrangement_file.song_arrangement.title %></h2>
+
+<h4>Link to Attached File:</h4>
+<strong>
+	<% if !@song_arrangement_file.file_path.path %>
+		<%= link_to "#{@song_arrangement_file.url}", "#{@song_arrangement_file.url}", target: "_blank" %>
+	<% else %>
+		<%= link_to "#{File.basename(@song_arrangement_file.file_path.path)}", "#{@song_arrangement_file.file_path}", target: "_blank" %>
+	<% end %>
+</strong>
+
+<br /><br /><br />
+
+<h4>Description:</h4>
+<% if @song_arrangement_file.description.empty? %>
+	There is no description entered for this attachment.
+<% end %>
+<%= @song_arrangement_file.description.html_safe %>

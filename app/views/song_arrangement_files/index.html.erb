@@ -1,0 +1,16 @@
+<% provide(:title, 'Attachment Library') %>
+
+<h1>Attachment Library</h1>
+
+<% if @song_arrangement_files.empty? %>
+	<h2>There are no attachments in this library.</h2>
+<% else %>
+	<%= form_tag song_arrangement_files_path, :method => 'get', id: "song_arrangement_files_search" do %>
+		<%= label_tag :search, "Search Attachments" %>
+		<%= text_field_tag :search, params[:search], class: "input-xxlarge" %>
+	<% end %>
+	
+	<div id="song_arrangement_files">
+		<%= render 'song_arrangement_files' %>
+	</div>
+<% end %>

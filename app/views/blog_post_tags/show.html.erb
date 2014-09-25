@@ -1,0 +1,7 @@
+<% provide(:title, "Blog posts tagged with: #{@blog_post_tag.name}") %>
+
+<h1>Blog posts tagged with: <%= @blog_post_tag.name %></h1>
+
+<div id="blog_posts">
+	<%= render 'posts' %>
+</div>

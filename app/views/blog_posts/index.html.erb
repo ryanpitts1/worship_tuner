@@ -1,0 +1,43 @@
+<% provide(:title, 'Blog') %>
+
+<h1>Blog</h1>
+
+<% if @blog_posts.empty? %>
+	<h2>No blog posts have been posted yet.</h2>
+<% else %>
+	<section class="blog-roll">
+		<%= form_tag blog_posts_path, :method => 'get', id: "blog_posts_search" do %>
+			<%= label_tag :search, "Search Blog Posts" %>
+			<%= text_field_tag :search, params[:search], class: "input-xxlarge" %>
+		<% end %>
+		
+		<div id="blog_posts">
+			<%= render 'posts' %>
+		</div>
+	</section>
+	<section class="blog-sidebar">
+		<div class="blog-tag-cloud">
+			<h4>Tag Cloud</h4>
+			<% tag_cloud BlogPost.tag_counts, %w[rare, somewhat frequent] do |tag, css_class| %>
+				<%= link_to tag.name, blog_post_tag_path(tag.name), class: css_class %>
+			<% end %>
+		</div>
+		<div class="popular-blog-posts">
+			<h4>Most Popular Posts</h4>
+			<% @popular_blog_posts.each do |post| %>
+				<div class="blog-post-title">
+					<%= link_to post.title, blog_post_path(post) %>
+				</div>
+			<% end %>
+		</div>
+		<div class="recent-blog-posts">
+			<h4>Recent Posts</h4>
+			<% @recent_blog_posts.each do |post| %>
+				<div class="blog-post-title">
+					<%= link_to post.title, blog_post_path(post) %>
+				</div>
+			<% end %>
+		</div>
+	</section>
+	<div class="cleanup"></div>
+<% end %>

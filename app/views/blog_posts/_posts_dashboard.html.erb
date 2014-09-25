@@ -1,0 +1,27 @@
+<%= will_paginate %>
+	<section class="data-list">
+		<% @blog_posts.each do |post| %>
+			<article>
+				<section class="data">
+					<div class="data-title">
+						<%= link_to "#{post.title}", post %>
+						<div class="data-subtitle">
+							Status: <%= (post.status == 1) ? 'Live' : 'Draft' %>
+						</div>
+					</div>
+					<div class="data-note">
+						Posted <%= time_ago_in_words(post.created_at) %> ago by <%= post.author %>
+					</div>
+				</section>
+				<% if user_signed_in? %>
+					<section class="data-actions">
+						<%= link_to "Update", edit_blog_post_path(post), class: "btn btn-large btn-primary" %>
+						<% if current_user.try(:admin?) %>					
+							<%= link_to "Delete", post, method: :delete, data: { confirm: "Are you sure you want to delete the post: #{post.title} (by #{post.author})?" }, class: "btn btn-large" %>
+						<% end %>
+					</section>
+				<% end %>
+			</article>
+		<% end %>
+	</section>
+<%= will_paginate %>

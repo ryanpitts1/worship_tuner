@@ -1,0 +1,25 @@
+<%= provide(:title, "Register") %>
+
+<h1>Register</h1>
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+	<%= render 'shared/error_messages', :object => @user %>
+	<div>
+		<%= f.label :name, "Name" %>
+		<%= f.text_field :name, class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.label :email %>
+		<%= f.email_field :email, class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.label :password %>
+		<%= f.password_field :password, class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.label :password_confirmation, "Confirm Password" %>
+		<%= f.password_field :password_confirmation, class: "input-xxlarge" %>
+	</div>
+	<div>
+		<%= f.submit "Register", class: "btn btn-primary" %>
+	</div>
+<% end %>

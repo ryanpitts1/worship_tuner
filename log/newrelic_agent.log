@@ -1,0 +1,395 @@
+# Logfile created on 2013-01-01 21:04:07 -0600 by logger.rb/31641
+[01/01/13 21:04:07 -0600 Ryan-PC (7376)] INFO : Dispatcher: thin
+[01/01/13 21:04:07 -0600 Ryan-PC (7376)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/01/13 21:04:07 -0600 Ryan-PC (7376)] WARN : Agent configured not to send data in this environment.
+[01/01/13 21:04:07 -0600 Ryan-PC (7376)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 7376
+[01/01/13 21:04:07 -0600 Ryan-PC (7376)] INFO : Agent Log at C:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/01/13 21:06:32 -0600 Ryan-PC (2004)] INFO : Dispatcher: thin
+[01/01/13 21:06:32 -0600 Ryan-PC (2004)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/01/13 21:06:32 -0600 Ryan-PC (2004)] WARN : Agent configured not to send data in this environment.
+[01/01/13 21:06:32 -0600 Ryan-PC (2004)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 2004
+[01/01/13 21:06:32 -0600 Ryan-PC (2004)] INFO : Agent Log at C:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/01/13 22:03:18 -0600 Ryan-PC (5220)] INFO : Dispatcher: thin
+[01/01/13 22:03:18 -0600 Ryan-PC (5220)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/01/13 22:03:18 -0600 Ryan-PC (5220)] WARN : Agent configured not to send data in this environment.
+[01/01/13 22:03:18 -0600 Ryan-PC (5220)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 5220
+[01/01/13 22:03:18 -0600 Ryan-PC (5220)] INFO : Agent Log at c:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/01/13 22:04:50 -0600 Ryan-PC (7856)] INFO : Dispatcher: thin
+[01/01/13 22:04:50 -0600 Ryan-PC (7856)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/01/13 22:04:50 -0600 Ryan-PC (7856)] WARN : Agent configured not to send data in this environment.
+[01/01/13 22:04:50 -0600 Ryan-PC (7856)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 7856
+[01/01/13 22:04:50 -0600 Ryan-PC (7856)] INFO : Agent Log at c:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/05/13 14:21:16 -0600 Ryan-PC (3428)] INFO : Dispatcher: thin
+[01/05/13 14:21:16 -0600 Ryan-PC (3428)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/05/13 14:21:16 -0600 Ryan-PC (3428)] WARN : Agent configured not to send data in this environment.
+[01/05/13 14:21:16 -0600 Ryan-PC (3428)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 3428
+[01/05/13 14:21:16 -0600 Ryan-PC (3428)] INFO : Agent Log at C:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/05/13 20:17:03 -0600 Ryan-PC (5436)] INFO : Dispatcher: thin
+[01/05/13 20:17:03 -0600 Ryan-PC (5436)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/05/13 20:17:03 -0600 Ryan-PC (5436)] WARN : Agent configured not to send data in this environment.
+[01/05/13 20:17:03 -0600 Ryan-PC (5436)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 5436
+[01/05/13 20:17:03 -0600 Ryan-PC (5436)] INFO : Agent Log at c:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/06/13 17:19:24 -0600 Ryan-PC (7924)] INFO : Dispatcher: thin
+[01/06/13 17:19:24 -0600 Ryan-PC (7924)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/06/13 17:19:24 -0600 Ryan-PC (7924)] WARN : Agent configured not to send data in this environment.
+[01/06/13 17:19:24 -0600 Ryan-PC (7924)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 7924
+[01/06/13 17:19:24 -0600 Ryan-PC (7924)] INFO : Agent Log at c:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/07/13 19:26:19 -0600 Ryan-PC (7428)] INFO : Dispatcher: thin
+[01/07/13 19:26:19 -0600 Ryan-PC (7428)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/07/13 19:26:19 -0600 Ryan-PC (7428)] WARN : Agent configured not to send data in this environment.
+[01/07/13 19:26:19 -0600 Ryan-PC (7428)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 7428
+[01/07/13 19:26:19 -0600 Ryan-PC (7428)] INFO : Agent Log at C:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/08/13 20:38:11 -0600 Ryan-PC (6628)] INFO : Dispatcher: thin
+[01/08/13 20:38:11 -0600 Ryan-PC (6628)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/08/13 20:38:11 -0600 Ryan-PC (6628)] WARN : Agent configured not to send data in this environment.
+[01/08/13 20:38:11 -0600 Ryan-PC (6628)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 6628
+[01/08/13 20:38:11 -0600 Ryan-PC (6628)] INFO : Agent Log at C:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/09/13 21:38:55 -0600 Ryan-PC (4884)] INFO : Dispatcher: thin
+[01/09/13 21:38:55 -0600 Ryan-PC (4884)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/09/13 21:38:55 -0600 Ryan-PC (4884)] WARN : Agent configured not to send data in this environment.
+[01/09/13 21:38:55 -0600 Ryan-PC (4884)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 4884
+[01/09/13 21:38:55 -0600 Ryan-PC (4884)] INFO : Agent Log at C:/RubyApps/WorshipTuner/log/newrelic_agent.log
+[01/10/13 19:07:39 -0600 Ryan-PC (3744)] INFO : Starting the New Relic Agent.
+[01/10/13 19:07:39 -0600 Ryan-PC (3744)] INFO : Environment: development
+[01/10/13 19:07:39 -0600 Ryan-PC (3744)] INFO : Dispatcher: thin
+[01/10/13 19:07:39 -0600 Ryan-PC (3744)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/10/13 19:07:39 -0600 Ryan-PC (3744)] WARN : Agent configured not to send data in this environment.
+[01/10/13 19:07:39 -0600 Ryan-PC (3744)] INFO : Installing ActiveRecord instrumentation
+[01/10/13 19:07:39 -0600 Ryan-PC (3744)] INFO : Installing Net instrumentation
+[01/10/13 19:07:39 -0600 Ryan-PC (3744)] INFO : Installing Rails 3 Controller instrumentation
+[01/10/13 19:07:40 -0600 Ryan-PC (3744)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/10/13 19:07:40 -0600 Ryan-PC (3744)] INFO : Installing Rails3 Error instrumentation
+[01/10/13 19:07:40 -0600 Ryan-PC (3744)] INFO : Finished instrumentation
+[01/10/13 19:09:56 -0600 Ryan-PC (2260)] INFO : Starting the New Relic Agent.
+[01/10/13 19:09:56 -0600 Ryan-PC (2260)] INFO : Environment: development
+[01/10/13 19:09:56 -0600 Ryan-PC (2260)] INFO : Dispatcher: thin
+[01/10/13 19:09:56 -0600 Ryan-PC (2260)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/10/13 19:09:56 -0600 Ryan-PC (2260)] WARN : Agent configured not to send data in this environment.
+[01/10/13 19:09:56 -0600 Ryan-PC (2260)] INFO : Installing ActiveRecord instrumentation
+[01/10/13 19:09:56 -0600 Ryan-PC (2260)] INFO : Installing Net instrumentation
+[01/10/13 19:09:56 -0600 Ryan-PC (2260)] INFO : Installing Rails 3 Controller instrumentation
+[01/10/13 19:09:57 -0600 Ryan-PC (2260)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/10/13 19:09:57 -0600 Ryan-PC (2260)] INFO : Installing Rails3 Error instrumentation
+[01/10/13 19:09:57 -0600 Ryan-PC (2260)] INFO : Finished instrumentation
+[01/11/13 13:49:58 -0600 Ryan-PC (6744)] INFO : Starting the New Relic Agent.
+[01/11/13 13:49:58 -0600 Ryan-PC (6744)] INFO : Environment: development
+[01/11/13 13:49:58 -0600 Ryan-PC (6744)] INFO : Dispatcher: thin
+[01/11/13 13:49:58 -0600 Ryan-PC (6744)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/11/13 13:49:58 -0600 Ryan-PC (6744)] WARN : Agent configured not to send data in this environment.
+[01/11/13 13:49:58 -0600 Ryan-PC (6744)] INFO : Installing ActiveRecord instrumentation
+[01/11/13 13:49:58 -0600 Ryan-PC (6744)] INFO : Installing Net instrumentation
+[01/11/13 13:49:58 -0600 Ryan-PC (6744)] INFO : Installing Rails 3 Controller instrumentation
+[01/11/13 13:49:59 -0600 Ryan-PC (6744)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/11/13 13:49:59 -0600 Ryan-PC (6744)] INFO : Installing Rails3 Error instrumentation
+[01/11/13 13:49:59 -0600 Ryan-PC (6744)] INFO : Finished instrumentation
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Starting the New Relic Agent.
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Environment: development
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Dispatcher: thin
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] WARN : Agent configured not to send data in this environment.
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Installing ActiveRecord instrumentation
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Installing Net instrumentation
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Installing Rails 3 Controller instrumentation
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Installing Rails3 Error instrumentation
+[01/11/13 13:50:15 -0600 Ryan-PC (7048)] INFO : Finished instrumentation
+[01/12/13 21:26:04 -0600 Ryan-PC (6364)] INFO : Starting the New Relic Agent.
+[01/12/13 21:26:04 -0600 Ryan-PC (6364)] INFO : Environment: development
+[01/12/13 21:26:04 -0600 Ryan-PC (6364)] INFO : Dispatcher: thin
+[01/12/13 21:26:04 -0600 Ryan-PC (6364)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/12/13 21:26:04 -0600 Ryan-PC (6364)] WARN : Agent configured not to send data in this environment.
+[01/12/13 21:26:04 -0600 Ryan-PC (6364)] INFO : Installing ActiveRecord instrumentation
+[01/12/13 21:26:04 -0600 Ryan-PC (6364)] INFO : Installing Net instrumentation
+[01/12/13 21:26:04 -0600 Ryan-PC (6364)] INFO : Installing Rails 3 Controller instrumentation
+[01/12/13 21:26:06 -0600 Ryan-PC (6364)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/12/13 21:26:06 -0600 Ryan-PC (6364)] INFO : Installing Rails3 Error instrumentation
+[01/12/13 21:26:06 -0600 Ryan-PC (6364)] INFO : Finished instrumentation
+[01/15/13 10:43:15 -0600 Ryan-PC (6000)] INFO : Starting the New Relic Agent.
+[01/15/13 10:43:15 -0600 Ryan-PC (6000)] INFO : Environment: development
+[01/15/13 10:43:15 -0600 Ryan-PC (6000)] INFO : Dispatcher: thin
+[01/15/13 10:43:15 -0600 Ryan-PC (6000)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/15/13 10:43:15 -0600 Ryan-PC (6000)] WARN : Agent configured not to send data in this environment.
+[01/15/13 10:43:15 -0600 Ryan-PC (6000)] INFO : Installing ActiveRecord instrumentation
+[01/15/13 10:43:15 -0600 Ryan-PC (6000)] INFO : Installing Net instrumentation
+[01/15/13 10:43:15 -0600 Ryan-PC (6000)] INFO : Installing Rails 3 Controller instrumentation
+[01/15/13 10:43:16 -0600 Ryan-PC (6000)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/15/13 10:43:16 -0600 Ryan-PC (6000)] INFO : Installing Rails3 Error instrumentation
+[01/15/13 10:43:16 -0600 Ryan-PC (6000)] INFO : Finished instrumentation
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Starting the New Relic Agent.
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Environment: development
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Dispatcher: thin
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] WARN : Agent configured not to send data in this environment.
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Installing ActiveRecord instrumentation
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Installing Net instrumentation
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Installing Rails 3 Controller instrumentation
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Installing Rails3 Error instrumentation
+[01/15/13 14:32:33 -0600 Ryan-PC (3780)] INFO : Finished instrumentation
+[01/15/13 14:48:30 -0600 Ryan-PC (6212)] INFO : Starting the New Relic Agent.
+[01/15/13 14:48:30 -0600 Ryan-PC (6212)] INFO : Environment: development
+[01/15/13 14:48:30 -0600 Ryan-PC (6212)] INFO : Dispatcher: thin
+[01/15/13 14:48:30 -0600 Ryan-PC (6212)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/15/13 14:48:30 -0600 Ryan-PC (6212)] WARN : Agent configured not to send data in this environment.
+[01/15/13 14:48:30 -0600 Ryan-PC (6212)] INFO : Installing ActiveRecord instrumentation
+[01/15/13 14:48:30 -0600 Ryan-PC (6212)] INFO : Installing Net instrumentation
+[01/15/13 14:48:30 -0600 Ryan-PC (6212)] INFO : Installing Rails 3 Controller instrumentation
+[01/15/13 14:48:31 -0600 Ryan-PC (6212)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/15/13 14:48:31 -0600 Ryan-PC (6212)] INFO : Installing Rails3 Error instrumentation
+[01/15/13 14:48:31 -0600 Ryan-PC (6212)] INFO : Finished instrumentation
+[01/15/13 15:30:13 -0600 Ryan-PC (3144)] INFO : Starting the New Relic Agent.
+[01/15/13 15:30:13 -0600 Ryan-PC (3144)] INFO : Environment: development
+[01/15/13 15:30:13 -0600 Ryan-PC (3144)] INFO : Dispatcher: thin
+[01/15/13 15:30:13 -0600 Ryan-PC (3144)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/15/13 15:30:13 -0600 Ryan-PC (3144)] WARN : Agent configured not to send data in this environment.
+[01/15/13 15:30:13 -0600 Ryan-PC (3144)] INFO : Installing ActiveRecord instrumentation
+[01/15/13 15:30:13 -0600 Ryan-PC (3144)] INFO : Installing Net instrumentation
+[01/15/13 15:30:13 -0600 Ryan-PC (3144)] INFO : Installing Rails 3 Controller instrumentation
+[01/15/13 15:30:14 -0600 Ryan-PC (3144)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/15/13 15:30:14 -0600 Ryan-PC (3144)] INFO : Installing Rails3 Error instrumentation
+[01/15/13 15:30:14 -0600 Ryan-PC (3144)] INFO : Finished instrumentation
+[01/16/13 20:10:11 -0600 Ryan-PC (5176)] INFO : Starting the New Relic Agent.
+[01/16/13 20:10:11 -0600 Ryan-PC (5176)] INFO : Environment: development
+[01/16/13 20:10:11 -0600 Ryan-PC (5176)] INFO : Dispatcher: thin
+[01/16/13 20:10:11 -0600 Ryan-PC (5176)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/16/13 20:10:11 -0600 Ryan-PC (5176)] WARN : Agent configured not to send data in this environment.
+[01/16/13 20:10:11 -0600 Ryan-PC (5176)] INFO : Installing ActiveRecord instrumentation
+[01/16/13 20:10:11 -0600 Ryan-PC (5176)] INFO : Installing Net instrumentation
+[01/16/13 20:10:11 -0600 Ryan-PC (5176)] INFO : Installing Rails 3 Controller instrumentation
+[01/16/13 20:10:12 -0600 Ryan-PC (5176)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/16/13 20:10:12 -0600 Ryan-PC (5176)] INFO : Installing Rails3 Error instrumentation
+[01/16/13 20:10:12 -0600 Ryan-PC (5176)] INFO : Finished instrumentation
+[01/16/13 20:11:10 -0600 Ryan-PC (4248)] INFO : Starting the New Relic Agent.
+[01/16/13 20:11:10 -0600 Ryan-PC (4248)] INFO : Environment: development
+[01/16/13 20:11:10 -0600 Ryan-PC (4248)] INFO : Dispatcher: thin
+[01/16/13 20:11:10 -0600 Ryan-PC (4248)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/16/13 20:11:10 -0600 Ryan-PC (4248)] WARN : Agent configured not to send data in this environment.
+[01/16/13 20:11:10 -0600 Ryan-PC (4248)] INFO : Installing ActiveRecord instrumentation
+[01/16/13 20:11:10 -0600 Ryan-PC (4248)] INFO : Installing Net instrumentation
+[01/16/13 20:11:10 -0600 Ryan-PC (4248)] INFO : Installing Rails 3 Controller instrumentation
+[01/16/13 20:11:11 -0600 Ryan-PC (4248)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/16/13 20:11:11 -0600 Ryan-PC (4248)] INFO : Installing Rails3 Error instrumentation
+[01/16/13 20:11:11 -0600 Ryan-PC (4248)] INFO : Finished instrumentation
+[01/18/13 21:24:34 -0600 Ryan-PC (6944)] INFO : Starting the New Relic Agent.
+[01/18/13 21:24:34 -0600 Ryan-PC (6944)] INFO : Environment: development
+[01/18/13 21:24:34 -0600 Ryan-PC (6944)] INFO : Dispatcher: thin
+[01/18/13 21:24:34 -0600 Ryan-PC (6944)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/18/13 21:24:34 -0600 Ryan-PC (6944)] WARN : Agent configured not to send data in this environment.
+[01/18/13 21:24:34 -0600 Ryan-PC (6944)] INFO : Installing ActiveRecord instrumentation
+[01/18/13 21:24:34 -0600 Ryan-PC (6944)] INFO : Installing Net instrumentation
+[01/18/13 21:24:34 -0600 Ryan-PC (6944)] INFO : Installing Rails 3 Controller instrumentation
+[01/18/13 21:24:35 -0600 Ryan-PC (6944)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/18/13 21:24:36 -0600 Ryan-PC (6944)] INFO : Installing Rails3 Error instrumentation
+[01/18/13 21:24:36 -0600 Ryan-PC (6944)] INFO : Finished instrumentation
+[01/18/13 21:32:19 -0600 Ryan-PC (6124)] INFO : Starting the New Relic Agent.
+[01/18/13 21:32:19 -0600 Ryan-PC (6124)] INFO : Environment: development
+[01/18/13 21:32:19 -0600 Ryan-PC (6124)] INFO : Dispatcher: thin
+[01/18/13 21:32:19 -0600 Ryan-PC (6124)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/18/13 21:32:19 -0600 Ryan-PC (6124)] WARN : Agent configured not to send data in this environment.
+[01/18/13 21:32:19 -0600 Ryan-PC (6124)] INFO : Installing ActiveRecord instrumentation
+[01/18/13 21:32:19 -0600 Ryan-PC (6124)] INFO : Installing Net instrumentation
+[01/18/13 21:32:19 -0600 Ryan-PC (6124)] INFO : Installing Rails 3 Controller instrumentation
+[01/18/13 21:32:20 -0600 Ryan-PC (6124)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/18/13 21:32:20 -0600 Ryan-PC (6124)] INFO : Installing Rails3 Error instrumentation
+[01/18/13 21:32:20 -0600 Ryan-PC (6124)] INFO : Finished instrumentation
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Starting the New Relic Agent.
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Environment: development
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Dispatcher: thin
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] WARN : Agent configured not to send data in this environment.
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Installing ActiveRecord instrumentation
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Installing Net instrumentation
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Installing Rails 3 Controller instrumentation
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Installing Rails3 Error instrumentation
+[01/18/13 21:38:14 -0600 Ryan-PC (5976)] INFO : Finished instrumentation
+[01/18/13 21:39:19 -0600 Ryan-PC (7164)] INFO : Starting the New Relic Agent.
+[01/18/13 21:39:19 -0600 Ryan-PC (7164)] INFO : Environment: development
+[01/18/13 21:39:19 -0600 Ryan-PC (7164)] INFO : Dispatcher: thin
+[01/18/13 21:39:19 -0600 Ryan-PC (7164)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/18/13 21:39:19 -0600 Ryan-PC (7164)] WARN : Agent configured not to send data in this environment.
+[01/18/13 21:39:19 -0600 Ryan-PC (7164)] INFO : Installing ActiveRecord instrumentation
+[01/18/13 21:39:19 -0600 Ryan-PC (7164)] INFO : Installing Net instrumentation
+[01/18/13 21:39:19 -0600 Ryan-PC (7164)] INFO : Installing Rails 3 Controller instrumentation
+[01/18/13 21:39:20 -0600 Ryan-PC (7164)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/18/13 21:39:20 -0600 Ryan-PC (7164)] INFO : Installing Rails3 Error instrumentation
+[01/18/13 21:39:20 -0600 Ryan-PC (7164)] INFO : Finished instrumentation
+[01/18/13 23:08:10 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find BlogPost with id=2
+[01/18/13 23:11:08 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: PG::Error: ERROR:  operator does not exist: ? integer
+LINE 1: ... OUTER JOIN blog_post_comments ON blog_posts.id = ? blog_pos...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+: SELECT  blog_posts.*, COUNT(blog_post_comments.id) as comments FROM "blog_posts" LEFT OUTER JOIN blog_post_comments ON blog_posts.id = ? blog_post_comments.blog_post_id WHERE "blog_posts"."id" = $1 GROUP BY blog_posts.id LIMIT 1
+[01/18/13 23:11:08 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: PG::Error: ERROR:  operator does not exist: ? integer
+LINE 1: ... OUTER JOIN blog_post_comments ON blog_posts.id = ? blog_pos...
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+: SELECT  blog_posts.*, COUNT(blog_post_comments.id) as comments FROM "blog_posts" LEFT OUTER JOIN blog_post_comments ON blog_posts.id = ? blog_post_comments.blog_post_id WHERE "blog_posts"."id" = $1 GROUP BY blog_posts.id LIMIT 1
+[01/18/13 23:14:05 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: PG::Error: ERROR:  column "blog_post_comments.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: ...at" AS t0_r6, "blog_posts"."updated_at" AS t0_r7, "blog_post...
+                                                             ^
+: SELECT "blog_posts"."id" AS t0_r0, "blog_posts"."title" AS t0_r1, "blog_posts"."author" AS t0_r2, "blog_posts"."body" AS t0_r3, "blog_posts"."labels" AS t0_r4, "blog_posts"."status" AS t0_r5, "blog_posts"."created_at" AS t0_r6, "blog_posts"."updated_at" AS t0_r7, "blog_post_comments"."id" AS t1_r0, "blog_post_comments"."blog_post_id" AS t1_r1, "blog_post_comments"."name" AS t1_r2, "blog_post_comments"."comment" AS t1_r3, "blog_post_comments"."created_at" AS t1_r4, "blog_post_comments"."updated_at" AS t1_r5, "blog_post_comments"."email" AS t1_r6 FROM "blog_posts" LEFT OUTER JOIN "blog_post_comments" ON "blog_post_comments"."blog_post_id" = "blog_posts"."id" WHERE "blog_posts"."id" = $1 AND "blog_posts"."id" IN (1) GROUP BY blog_posts.id
+[01/18/13 23:14:05 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: PG::Error: ERROR:  column "blog_post_comments.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: ...at" AS t0_r6, "blog_posts"."updated_at" AS t0_r7, "blog_post...
+                                                             ^
+: SELECT "blog_posts"."id" AS t0_r0, "blog_posts"."title" AS t0_r1, "blog_posts"."author" AS t0_r2, "blog_posts"."body" AS t0_r3, "blog_posts"."labels" AS t0_r4, "blog_posts"."status" AS t0_r5, "blog_posts"."created_at" AS t0_r6, "blog_posts"."updated_at" AS t0_r7, "blog_post_comments"."id" AS t1_r0, "blog_post_comments"."blog_post_id" AS t1_r1, "blog_post_comments"."name" AS t1_r2, "blog_post_comments"."comment" AS t1_r3, "blog_post_comments"."created_at" AS t1_r4, "blog_post_comments"."updated_at" AS t1_r5, "blog_post_comments"."email" AS t1_r6 FROM "blog_posts" LEFT OUTER JOIN "blog_post_comments" ON "blog_post_comments"."blog_post_id" = "blog_posts"."id" WHERE "blog_posts"."id" = $1 AND "blog_posts"."id" IN (1) GROUP BY blog_posts.id
+[01/19/13 14:39:36 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `email' for nil:NilClass
+[01/19/13 14:39:36 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `email' for nil:NilClass
+[01/19/13 14:41:58 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `email' for nil:NilClass
+[01/19/13 14:41:58 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `email' for nil:NilClass
+[01/21/13 17:21:12 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `post' for #<#<Class:0x69d0c38>:0x5ee8658>
+[01/21/13 17:21:12 -0600 Ryan-PC (6944)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `post' for #<#<Class:0x69d0c38>:0x5ee8658>
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Starting the New Relic Agent.
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Environment: development
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Dispatcher: thin
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] WARN : Agent configured not to send data in this environment.
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Installing ActiveRecord instrumentation
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Installing Net instrumentation
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Installing Rails 3 Controller instrumentation
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Installing Rails3 Error instrumentation
+[01/21/13 17:53:58 -0600 Ryan-PC (4676)] INFO : Finished instrumentation
+[01/21/13 17:54:30 -0600 Ryan-PC (4820)] INFO : Starting the New Relic Agent.
+[01/21/13 17:54:30 -0600 Ryan-PC (4820)] INFO : Environment: development
+[01/21/13 17:54:30 -0600 Ryan-PC (4820)] INFO : Dispatcher: thin
+[01/21/13 17:54:30 -0600 Ryan-PC (4820)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/21/13 17:54:30 -0600 Ryan-PC (4820)] WARN : Agent configured not to send data in this environment.
+[01/21/13 17:54:30 -0600 Ryan-PC (4820)] INFO : Installing ActiveRecord instrumentation
+[01/21/13 17:54:30 -0600 Ryan-PC (4820)] INFO : Installing Net instrumentation
+[01/21/13 17:54:30 -0600 Ryan-PC (4820)] INFO : Installing Rails 3 Controller instrumentation
+[01/21/13 17:54:31 -0600 Ryan-PC (4820)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/21/13 17:54:31 -0600 Ryan-PC (4820)] INFO : Installing Rails3 Error instrumentation
+[01/21/13 17:54:31 -0600 Ryan-PC (4820)] INFO : Finished instrumentation
+[01/23/13 20:44:47 -0600 Ryan-PC (3232)] INFO : Starting the New Relic Agent.
+[01/23/13 20:44:47 -0600 Ryan-PC (3232)] INFO : Environment: development
+[01/23/13 20:44:47 -0600 Ryan-PC (3232)] INFO : Dispatcher: thin
+[01/23/13 20:44:47 -0600 Ryan-PC (3232)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/23/13 20:44:47 -0600 Ryan-PC (3232)] WARN : Agent configured not to send data in this environment.
+[01/23/13 20:44:47 -0600 Ryan-PC (3232)] INFO : Installing ActiveRecord instrumentation
+[01/23/13 20:44:47 -0600 Ryan-PC (3232)] INFO : Installing Net instrumentation
+[01/23/13 20:44:47 -0600 Ryan-PC (3232)] INFO : Installing Rails 3 Controller instrumentation
+[01/23/13 20:44:49 -0600 Ryan-PC (3232)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/23/13 20:44:49 -0600 Ryan-PC (3232)] INFO : Installing Rails3 Error instrumentation
+[01/23/13 20:44:49 -0600 Ryan-PC (3232)] INFO : Finished instrumentation
+[01/24/13 20:21:49 -0600 Ryan-PC (4248)] INFO : Starting the New Relic Agent.
+[01/24/13 20:21:49 -0600 Ryan-PC (4248)] INFO : Environment: development
+[01/24/13 20:21:49 -0600 Ryan-PC (4248)] INFO : Dispatcher: thin
+[01/24/13 20:21:49 -0600 Ryan-PC (4248)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/24/13 20:21:49 -0600 Ryan-PC (4248)] WARN : Agent configured not to send data in this environment.
+[01/24/13 20:21:49 -0600 Ryan-PC (4248)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 20:21:49 -0600 Ryan-PC (4248)] INFO : Installing Net instrumentation
+[01/24/13 20:21:49 -0600 Ryan-PC (4248)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 20:21:50 -0600 Ryan-PC (4248)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 20:21:50 -0600 Ryan-PC (4248)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 20:21:50 -0600 Ryan-PC (4248)] INFO : Finished instrumentation
+[01/24/13 20:27:07 -0600 Ryan-PC (2732)] INFO : Starting the New Relic Agent.
+[01/24/13 20:27:07 -0600 Ryan-PC (2732)] INFO : Environment: development
+[01/24/13 20:27:07 -0600 Ryan-PC (2732)] INFO : Dispatcher: thin
+[01/24/13 20:27:07 -0600 Ryan-PC (2732)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/24/13 20:27:07 -0600 Ryan-PC (2732)] WARN : Agent configured not to send data in this environment.
+[01/24/13 20:27:07 -0600 Ryan-PC (2732)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 20:27:07 -0600 Ryan-PC (2732)] INFO : Installing Net instrumentation
+[01/24/13 20:27:07 -0600 Ryan-PC (2732)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 20:27:08 -0600 Ryan-PC (2732)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 20:27:08 -0600 Ryan-PC (2732)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 20:27:08 -0600 Ryan-PC (2732)] INFO : Finished instrumentation
+[01/24/13 20:27:45 -0600 Ryan-PC (5088)] INFO : Starting the New Relic Agent.
+[01/24/13 20:27:45 -0600 Ryan-PC (5088)] INFO : Environment: development
+[01/24/13 20:27:45 -0600 Ryan-PC (5088)] INFO : Dispatcher: thin
+[01/24/13 20:27:45 -0600 Ryan-PC (5088)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/24/13 20:27:45 -0600 Ryan-PC (5088)] WARN : Agent configured not to send data in this environment.
+[01/24/13 20:27:45 -0600 Ryan-PC (5088)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 20:27:45 -0600 Ryan-PC (5088)] INFO : Installing Net instrumentation
+[01/24/13 20:27:45 -0600 Ryan-PC (5088)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 20:27:46 -0600 Ryan-PC (5088)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 20:27:46 -0600 Ryan-PC (5088)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 20:27:46 -0600 Ryan-PC (5088)] INFO : Finished instrumentation
+[01/24/13 20:51:37 -0600 Ryan-PC (5104)] INFO : Starting the New Relic Agent.
+[01/24/13 20:51:37 -0600 Ryan-PC (5104)] INFO : Environment: development
+[01/24/13 20:51:37 -0600 Ryan-PC (5104)] INFO : Dispatcher: thin
+[01/24/13 20:51:37 -0600 Ryan-PC (5104)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/24/13 20:51:37 -0600 Ryan-PC (5104)] WARN : Agent configured not to send data in this environment.
+[01/24/13 20:51:37 -0600 Ryan-PC (5104)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 20:51:37 -0600 Ryan-PC (5104)] INFO : Installing Net instrumentation
+[01/24/13 20:51:37 -0600 Ryan-PC (5104)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 20:51:38 -0600 Ryan-PC (5104)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 20:51:38 -0600 Ryan-PC (5104)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 20:51:38 -0600 Ryan-PC (5104)] INFO : Finished instrumentation
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Starting the New Relic Agent.
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Environment: development
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Dispatcher: thin
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] WARN : Agent configured not to send data in this environment.
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Installing Net instrumentation
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 21:01:51 -0600 Ryan-PC (5140)] INFO : Finished instrumentation
+[01/24/13 21:24:32 -0600 Ryan-PC (6636)] INFO : Starting the New Relic Agent.
+[01/24/13 21:24:33 -0600 Ryan-PC (6636)] INFO : Environment: development
+[01/24/13 21:24:33 -0600 Ryan-PC (6636)] INFO : Dispatcher: thin
+[01/24/13 21:24:33 -0600 Ryan-PC (6636)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/24/13 21:24:33 -0600 Ryan-PC (6636)] WARN : Agent configured not to send data in this environment.
+[01/24/13 21:24:33 -0600 Ryan-PC (6636)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 21:24:33 -0600 Ryan-PC (6636)] INFO : Installing Net instrumentation
+[01/24/13 21:24:33 -0600 Ryan-PC (6636)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 21:24:34 -0600 Ryan-PC (6636)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 21:24:34 -0600 Ryan-PC (6636)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 21:24:34 -0600 Ryan-PC (6636)] INFO : Finished instrumentation
+[01/24/13 22:48:14 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing partial blog_post_tags/tags, application/tags with {:locale=>[:en], :formats=>[:js, :html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "C:/RubyApps/WorshipTuner/app/views"
+  * "c:/Ruby193/lib/ruby/gems/1.9.1/gems/devise-2.2.0/app/views"
+
+[01/24/13 22:51:26 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `paginate' for #<BlogPostTag:0x6036240>
+[01/24/13 22:51:26 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `paginate' for #<BlogPostTag:0x6036240>
+[01/24/13 22:51:51 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:51:51 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:53:02 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: C:/RubyApps/WorshipTuner/app/controllers/blog_post_tags_controller.rb:7: syntax error, unexpected ')', expecting tASSOC
+...age], per_page: 20, conditions)
+...                               ^
+C:/RubyApps/WorshipTuner/app/controllers/blog_post_tags_controller.rb:14: syntax error, unexpected $end, expecting keyword_end
+[01/24/13 22:53:22 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:53:22 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:55:01 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:55:01 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:55:29 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:55:29 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:55:49 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:55:49 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The @blog_post_tags variable appears to be empty. Did you forget to pass the collection object for will_paginate?
+[01/24/13 22:58:03 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `tags' for #<BlogPost:0x8809428>
+[01/24/13 22:58:03 -0600 Ryan-PC (6636)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `tags' for #<BlogPost:0x8809428>
+[01/25/13 20:20:11 -0600 Ryan-PC (7160)] INFO : Starting the New Relic Agent.
+[01/25/13 20:20:11 -0600 Ryan-PC (7160)] INFO : Environment: development
+[01/25/13 20:20:11 -0600 Ryan-PC (7160)] INFO : Dispatcher: thin
+[01/25/13 20:20:11 -0600 Ryan-PC (7160)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/25/13 20:20:11 -0600 Ryan-PC (7160)] WARN : Agent configured not to send data in this environment.
+[01/25/13 20:20:12 -0600 Ryan-PC (7160)] INFO : Installing ActiveRecord instrumentation
+[01/25/13 20:20:12 -0600 Ryan-PC (7160)] INFO : Installing Net instrumentation
+[01/25/13 20:20:12 -0600 Ryan-PC (7160)] INFO : Installing Rails 3 Controller instrumentation
+[01/25/13 20:20:13 -0600 Ryan-PC (7160)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/25/13 20:20:13 -0600 Ryan-PC (7160)] INFO : Installing Rails3 Error instrumentation
+[01/25/13 20:20:13 -0600 Ryan-PC (7160)] INFO : Finished instrumentation
+[01/25/13 20:22:00 -0600 Ryan-PC (6592)] INFO : Starting the New Relic Agent.
+[01/25/13 20:22:00 -0600 Ryan-PC (6592)] INFO : Environment: development
+[01/25/13 20:22:00 -0600 Ryan-PC (6592)] INFO : Dispatcher: thin
+[01/25/13 20:22:00 -0600 Ryan-PC (6592)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[01/25/13 20:22:00 -0600 Ryan-PC (6592)] WARN : Agent configured not to send data in this environment.
+[01/25/13 20:22:00 -0600 Ryan-PC (6592)] INFO : Installing ActiveRecord instrumentation
+[01/25/13 20:22:00 -0600 Ryan-PC (6592)] INFO : Installing Net instrumentation
+[01/25/13 20:22:00 -0600 Ryan-PC (6592)] INFO : Installing Rails 3 Controller instrumentation
+[01/25/13 20:22:01 -0600 Ryan-PC (6592)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/25/13 20:22:01 -0600 Ryan-PC (6592)] INFO : Installing Rails3 Error instrumentation
+[01/25/13 20:22:01 -0600 Ryan-PC (6592)] INFO : Finished instrumentation
+[01/26/13 21:52:43 -0600 Ryan-PC (6592)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `blog_post' for #<#<Class:0x7ea0f80>:0x7895478>
+[01/26/13 21:58:56 -0600 Ryan-PC (6592)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: PG::Error: ERROR:  column "blog_posts.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT blog_posts.*, COUNT(blog_post_comments.id) AS number_...
+               ^
+: SELECT blog_posts.*, COUNT(blog_post_comments.id) AS number_of_comments FROM "blog_posts" INNER JOIN "blog_post_comments" ON "blog_post_comments"."blog_post_id" = "blog_posts"."id"
+[01/26/13 21:58:56 -0600 Ryan-PC (6592)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: PG::Error: ERROR:  column "blog_posts.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT blog_posts.*, COUNT(blog_post_comments.id) AS number_...
+               ^
+: SELECT blog_posts.*, COUNT(blog_post_comments.id) AS number_of_comments FROM "blog_posts" INNER JOIN "blog_post_comments" ON "blog_post_comments"."blog_post_id" = "blog_posts"."id"
+[01/26/13 21:59:40 -0600 Ryan-PC (6592)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each' for nil:NilClass
+[01/26/13 21:59:40 -0600 Ryan-PC (6592)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `each' for nil:NilClass

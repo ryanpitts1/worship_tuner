@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+	</head>
+	<body>
+		<h1>Website Contact Form Submission</h1>
+		<p>
+			Someone has filled out the contact form. What do they want? Look below!
+		</p>
+		<p>
+			Name: <%= @contact.full_name %><br />
+			Email: <%= @contact.email.downcase %><br />
+			Message: <%= @contact.message.html_safe %>
+		</p>
+	</body>
+</html>
